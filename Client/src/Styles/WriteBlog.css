@@ -1,0 +1,60 @@
+.write-blog {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .write-blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .write-blog form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .write-blog form input[type="text"],
+  .write-blog form textarea,
+  .write-blog form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .write-blog form textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .write-blog form input[type="file"] {
+    border: none;
+  }
+  
+  .write-blog form button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .write-blog form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
